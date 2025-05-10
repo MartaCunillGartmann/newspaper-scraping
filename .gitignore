@@ -49,9 +49,6 @@ notebooks/debug*
 notebooks/ok_*
 notebooks/Erster Analyse Marcels Daten.ipynb
 notebooks/Schlagwortanalyse_*
-notebooks/clusteranalyse.ipynb
-notebooks/frequenzanalyse_*
-notebooks/preprocess_*
 
 # Andere Projektunterordner, die nicht in Git gehören
 scripts/
