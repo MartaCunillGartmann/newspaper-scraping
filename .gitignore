@@ -1,4 +1,58 @@
 input
 output
 temp
+# ===========================
+# Allgemein
+# ===========================
 
+# System
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+
+# Python virtualenvs
+.env/
+.venv/
+venv/
+ENV/
+
+# ===========================
+# VS Code / IDEs
+# ===========================
+
+.vscode/
+*.code-workspace
+
+# ===========================
+# Jupyter
+# ===========================
+
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===========================
+# Eigene Ordnerstruktur
+# ===========================
+
+# Alles im output-Ordner ignorieren (z. B. CSVs, Plots, Modelle)
+output/
+
+# ===========================
+# Unfertige oder private Notebooks (werden lokal behalten)
+# ===========================
+
+# Entwürfe, Tests, Debug
+notebooks/Test*
+notebooks/test*
+notebooks/debug*
+notebooks/ok_*
+notebooks/Erster Analyse Marcels Daten.ipynb
+notebooks/Schlagwortanalyse_*
+notebooks/clusteranalyse.ipynb
+notebooks/frequenzanalyse_*
+notebooks/preprocess_*
+
+# Andere Projektunterordner, die nicht in Git gehören
+scripts/
+docs/
