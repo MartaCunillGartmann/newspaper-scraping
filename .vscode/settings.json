@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Pressemitteilungen DB",
+            "database": "\"C:\\Users\\Marta\\Documents\\Marta\\DBU\\ADSC11 ADS-01\\Studienarbeit\\newspaper-scraping\\output\\dwh_pm_bvg.sqlite3\""
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

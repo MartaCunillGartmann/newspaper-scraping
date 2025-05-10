@@ -8,8 +8,10 @@ jupyterlab = "*"
 pandas = "*"
 requests = "*"
 seaborn = "*"
+wordcloud = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.11"
